@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DompetKu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_close">Close</string>
+    <string name="title_activity_transaction">New Transaction</string>
+    <string name="title_activity_account">New Account</string>
+    <string name="title_activity_edit_account">Edit Account</string>
+    <string name="title_activity_edit_transaction">Edit Transaction</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_list_category">Category</string>
+    <string name="title_activity_input_category">New Category</string>
+    <string name="title_activity_edit_category">Edit Category</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

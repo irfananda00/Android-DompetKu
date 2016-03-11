@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_overview" android:icon="@drawable/dollar136"
+            android:title="Transactions" />
+        <item android:id="@+id/nav_accounts" android:icon="@drawable/piggy9"
+            android:title="Accounts" />
+        <item android:id="@+id/nav_reports" android:icon="@drawable/pie51"
+            android:title="Reports" />
+        <item android:id="@+id/nav_about" android:icon="@drawable/warning39"
+            android:title="About" />
+    </group>
+
+</menu>

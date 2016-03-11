@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_input_transaction"
+    tools:context="garputala.irfananda.dompetku.InputTransactionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btn_add">
+    <RadioGroup
+        android:id="@+id/radioJenisTransaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="1dp">
+
+        <RadioButton
+            android:id="@+id/radioE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense"
+            android:layout_marginBottom="10dp"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radioI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Income" />
+
+    </RadioGroup>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_nama"
+        android:hint="Name"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/radioJenisTransaksi"
+        android:layout_toEndOf="@+id/img_icon_transaction_name"
+        android:layout_toRightOf="@+id/img_icon_transaction_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:hint="Value"
+        android:ems="10"
+        android:id="@+id/edt_value"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/edt_nama"
+        android:layout_alignLeft="@+id/edt_nama"
+        android:layout_alignStart="@+id/edt_nama" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Category"
+            android:id="@+id/btn_select_category"
+            android:layout_gravity="center_horizontal"
+            android:background="#f9f9f9"
+            android:gravity="left|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="5dp"
+            android:layout_below="@id/edt_value"
+            android:layout_alignLeft="@+id/edt_value"
+            android:layout_alignStart="@+id/edt_value" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Account"
+            android:id="@+id/btn_select_account"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="#f9f9f9"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp"
+            android:layout_below="@id/btn_select_category"
+            android:layout_alignLeft="@+id/btn_select_category"
+            android:layout_alignStart="@+id/btn_select_category" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:id="@+id/btn_date"
+        android:layout_marginBottom="10dp"
+        android:background="#f9f9f9"
+        android:paddingLeft="5dp"
+        android:gravity="left|center_vertical"
+        android:layout_below="@id/btn_select_account"
+        android:layout_alignLeft="@+id/btn_select_account"
+        android:layout_alignStart="@+id/btn_select_account" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Iteration"
+            android:id="@+id/btn_routine"
+            android:background="#f9f9f9"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="5dp"
+            android:gravity="left|center_vertical"
+            android:layout_below="@id/btn_date"
+            android:layout_alignLeft="@+id/btn_date"
+            android:layout_alignStart="@+id/btn_date" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/img_icon_transaction_name"
+            android:src="@drawable/dollar136"
+            android:layout_below="@+id/radioJenisTransaksi"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/img_icon_value"
+            android:src="@drawable/coins4"
+            android:layout_below="@+id/edt_nama"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/img_icon_category"
+            android:src="@drawable/pie51"
+            android:layout_below="@+id/edt_value"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/img_icon_account_name"
+            android:src="@drawable/piggy9"
+            android:layout_below="@+id/btn_select_category"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/img_icon_date"
+            android:src="@drawable/calendar159"
+            android:layout_below="@+id/btn_select_account"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/img_icon_routine"
+            android:src="@drawable/refresh62"
+            android:layout_below="@+id/btn_date"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:id="@+id/btn_add"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

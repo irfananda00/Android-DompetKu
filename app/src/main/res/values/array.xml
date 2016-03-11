@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="viewby_spin">
+        <item>This Day</item>
+        <item>This Month</item>
+        <item>This Year</item>
+        <item>Any Time</item>
+    </string-array>
+</resources>
