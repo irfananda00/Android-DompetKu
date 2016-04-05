@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AsyncDeleteAccountCategory extends AsyncTask<Void,Void,String > {
-    private static final String HOST="http://garputala-chalange.site88.net/deleteAccountCategory.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/deleteAccountCategory.php";
     private Dialog loadingDialog;
     private Context context;
     private String id_ac_category;

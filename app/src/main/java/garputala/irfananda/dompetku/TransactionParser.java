@@ -9,7 +9,7 @@ import java.util.List;
 
 //get data transaction from host to transaction class
 public class TransactionParser {
-    private static final String HOST="http://garputala-chalange.site88.net/";
+    private static final String HOST="http://www.dompetku.cingkleung.com/";
 
     public static List<Transaction> getTransaction(String tanggal_input){
         //penampung list Transaction

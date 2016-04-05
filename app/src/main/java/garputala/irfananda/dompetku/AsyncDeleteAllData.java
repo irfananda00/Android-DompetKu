@@ -19,7 +19,7 @@ import java.io.InputStreamReader;
 
 public class AsyncDeleteAllData extends AsyncTask<Void,Void,String > {
 
-    private static final String HOST="http://garputala-chalange.site88.net/deleteAllData.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/deleteAllData.php";
     private Dialog loadingDialog;
     private Context context;
 

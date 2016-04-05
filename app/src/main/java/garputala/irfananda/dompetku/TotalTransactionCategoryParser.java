@@ -6,7 +6,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class TotalTransactionCategoryParser {
-    private static final String HOST="http://garputala-chalange.site88.net/getTotalTransactionCategory.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/getTotalTransactionCategory.php";
 
     public static Transaction getTotalTransactionCategory(){
         //penampung Account

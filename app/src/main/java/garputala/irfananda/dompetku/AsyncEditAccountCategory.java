@@ -24,7 +24,7 @@ import java.util.List;
 
 public class AsyncEditAccountCategory extends AsyncTask<Void,Void,String > {
 
-    private static final String HOST="http://garputala-chalange.site88.net/updateAccountCategory.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/updateAccountCategory.php";
     private Dialog loadingDialog;
     private Context context;
     private String id_ac_category;

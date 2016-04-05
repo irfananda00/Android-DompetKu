@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TransactionCategoryParser {
-    private static final String HOST="http://garputala-chalange.site88.net/getTransactionCategory.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/getTransactionCategory.php";
 
     public static List<TransactionCategory> getTransactionCategory(){
         //penampung list AccountCategory

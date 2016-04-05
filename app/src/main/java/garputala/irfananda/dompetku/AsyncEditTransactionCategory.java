@@ -25,7 +25,7 @@ import java.util.List;
 
 public class AsyncEditTransactionCategory extends AsyncTask<Void,Void,String > {
 
-    private static final String HOST="http://garputala-chalange.site88.net/updateTransactionCategory.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/updateTransactionCategory.php";
     private Dialog loadingDialog;
     private Context context;
     private String id_tr_category;

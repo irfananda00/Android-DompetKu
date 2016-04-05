@@ -25,7 +25,7 @@ import java.util.List;
 //background task for deleting transaction
 public class AsyncDeleteTransaction extends AsyncTask<Void,Void,String > {
 
-    private static final String HOST="http://garputala-chalange.site88.net/deleteTransaction.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/deleteTransaction.php";
     private Dialog loadingDialog;
     private Context context;
     private String id_tr;

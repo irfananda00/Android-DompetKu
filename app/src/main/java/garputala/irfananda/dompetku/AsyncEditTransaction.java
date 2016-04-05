@@ -26,7 +26,7 @@ import java.util.List;
 //background task for updating account
 public class AsyncEditTransaction extends AsyncTask<Void,Void,String >{
 
-    private static final String HOST="http://garputala-chalange.site88.net/updateTransaction.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/updateTransaction.php";
     private Dialog loadingDialog;
     private Context context;
     private String id_tr;

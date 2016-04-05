@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AsyncPostAccountCategory extends AsyncTask<Void, Void, String> {
-    private static final String HOST="http://garputala-chalange.site88.net/setAccountCategory.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/setAccountCategory.php";
     private Dialog loadingDialog;
     private Context context;
     private String category;

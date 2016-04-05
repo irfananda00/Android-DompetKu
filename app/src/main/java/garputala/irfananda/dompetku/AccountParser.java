@@ -9,7 +9,7 @@ import java.util.List;
 
 //get data account from host to account class
 public class AccountParser {
-    private static final String HOST="http://garputala-chalange.site88.net/getAccount.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/getAccount.php";
 
     public static List<Account> getAccount(){
         //penampung list Account

@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AsyncDeleteTransactionCategory extends AsyncTask<Void,Void,String > {
-    private static final String HOST="http://garputala-chalange.site88.net/deleteTransactionCategory.php";
+    private static final String HOST="http://www.dompetku.cingkleung.com/deleteTransactionCategory.php";
     private Dialog loadingDialog;
     private Context context;
     private String id_tr_category;

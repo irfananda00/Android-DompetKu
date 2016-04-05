@@ -7,8 +7,8 @@ import org.json.JSONObject;
 //get data Expense & Income from host1 & host2 to class Expense & Income
 public class ExpenseIncomeParser {
 
-    private static final String HOST1="http://garputala-chalange.site88.net/Expense.php";
-    private static final String HOST2="http://garputala-chalange.site88.net/Income.php";
+    private static final String HOST1="http://www.dompetku.cingkleung.com/Expense.php";
+    private static final String HOST2="http://www.dompetku.cingkleung.com/Income.php";
 
     public static Expense getExpense(String year,String month,String day){
 
